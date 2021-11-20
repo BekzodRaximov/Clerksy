@@ -1,0 +1,487 @@
+@font-face {
+  src: url("/11-DARS/Clerksy/fonts/Recoleta-RegularDEMO.otf");
+  font-family: "Recoleta";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Recoleta';
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Hero section */
+#hero {
+  background-color: #163A24;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 98px;
+}
+
+.header-logo {
+  width: 153px;
+  height: 58px;
+}
+
+.header-desc {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-link, .nav-btn {
+  font-size: 16px;
+  color: #FBFAF7;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 21.79px;
+}
+
+.nav-btn {
+  padding: 15px 25px;
+  background-color: #198C36;
+  border-radius: 160px;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.hero-title {
+  margin-top: 120px;
+  font-size: 48px;
+  line-height: 65.25px;
+  font-weight: 600;
+  color: #FBFAF7;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #FBFAF7;
+}
+
+.hero-img img {
+  width: 738px;
+  height: 580px;
+}
+
+/* CTA section */
+.cta-box {
+  display: flex;
+}
+
+.cta-img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-img img {
+  width: 492px;
+  height: 510px;
+  margin-top: 130px;
+}
+
+.cta-desc {
+  margin-top: 269px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.cta-title {
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #163A24;
+  width: 50%;
+  margin-bottom: 27px;
+}
+
+.cta-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #163A24;
+  width: 60%;
+}
+
+.img-2 {
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.img-2 img {
+  width: 492px;
+  height: 423px;
+  margin-top: 0;
+}
+
+.desc-2 {
+  margin-top: 117px;
+  margin-left: 228px;
+}
+
+.title-2 {
+  width: 70%;
+}
+
+/* Partners */
+
+#partners {
+  display: flex;
+  flex-direction: column;
+}
+
+.partners-title {
+  margin-top: 115px;
+  text-align: center;
+}
+
+.partners-logos {
+  display: flex;
+}
+
+.partners-logo {
+  margin-right: 86px;
+  margin-top: 70px;
+}
+
+/* HR section */
+#hr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 121px;
+  background-color: #163A24;
+  width: 1440px;
+}
+
+.hr-title {
+  margin-top: 66px;
+  text-align: center;
+  color: #FBFAF7;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 600;
+}
+
+.hr-blog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.hr-desc {
+  margin-top: 30px;
+  padding-bottom: 140px;
+}
+
+.hr-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #FBFAF7;
+}
+
+/* Employee section */
+
+#employee {
+  background-color: #F2EFE6;
+}
+
+.employee-page {
+  padding-top: 114px;
+  flex-direction: column;
+}
+
+.employee-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #163A24;
+  margin-bottom: 27px;
+}
+
+.employee-text {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 400;
+  color: #163A24;
+}
+
+.employee-text, .employee-title {
+  width: 786px;
+}
+
+.employee-image {
+  width: 1180px;
+  padding-bottom: 135px;
+}
+
+/* How section */
+#how {
+  margin-top: 182px;
+}
+
+.how-desc {
+  width: 50%;
+}
+
+.how-title, .how-text{
+  text-align: left;
+  width: 390px;
+}
+
+.how-img {
+  width: 50%;
+}
+
+.how-img img {
+  width: 492px;
+  height: 423px;
+}
+
+.how-help {
+  margin-top: 115px;
+}
+
+.help-title, .help-text {
+  width: auto;
+}
+
+.help-title {
+  margin-bottom: 26px;
+}
+
+.help-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.help-card {
+  box-shadow: 5px 5px 20px #E9E4D5;
+  width: 353px;
+  height: 393px;
+}
+
+.help-card img {
+  margin-bottom: 20px;
+}
+
+.help-title-card {
+  font-size: 28x;
+  font-weight: 600;
+  line-height: 31.5px;
+  color: #163A24;
+  margin-bottom: 23px;
+}
+
+.help-list {
+  flex-direction: column;
+  list-style: disc;
+  color: #163A24;
+}
+
+.help-item {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 21.79px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+/* Pricing section */
+
+#pricing {
+  margin-top: 120px;
+  padding-top: 114px;
+  background-color: #F2EFE6;
+  padding-bottom: 130px;
+}
+
+.pricing-title {
+  width: auto;
+}
+
+.pricing-text {
+  width: inherit;
+  margin-bottom: 60px;
+}
+
+.pricing-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-cnt-text {
+  font-size: 18;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 400;
+  color: #163A24;
+  margin-bottom: 13px;
+  width: 250px;
+}
+
+.price-cnt-card {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+}
+
+.price-btn {
+  font-size: 16px;
+  line-height: 21.79px;
+  font-weight: 400;
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #198C36;
+  border-radius: 160px;
+  color: #FBFAF7;
+}
+
+/* Book */
+
+#book {
+  display: flex;
+  flex-direction: row;
+  padding-top: 130px;
+}
+
+.book-desc {
+  width: 50%;
+}
+
+.book-title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #163A24;
+  margin-bottom: 25px;
+}
+
+.book-text {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #163A24;
+  margin-bottom: 34px;
+}
+
+.book-img {
+  width: 50%;
+}
+
+.book-img img {
+  width: 492px;
+  height: 510px;
+}
+
+/* start */
+#start {
+  margin-top: 130px;
+  background-color: #163A24;
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-left img {
+  width: 300px;
+  height: 400px;
+}
+
+.start-desc {
+  flex-direction: column;
+}
+
+.start-title {
+  color: #FBFAF7;
+}
+
+.start-text {
+  color: #FBFAF7;
+}
+
+.start-btn {
+  background-color: #FAB5A0;
+  color: #163A24;
+}
+
+/* Sign */
+#sign {
+  background-color: #F2EFE6;
+}
+
+.sign-content {
+  margin-top: 60px;
+  display: flex;
+}
+
+.sign-line-btn {
+  /* width: 553px;
+  height: 54px; */
+  border: 1px solid #F2EFE6;
+  background-color: red;
+  border-radius: 255px;
+  display: inline-block;
+  padding: 25px 100px;
+}
+
+.sign-up-btn {
+  display: flex;
+}
+
+.sign-cnt-text {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #163A24;
+}
+
+.privacy {
+  margin-right: 5px;
+  color: #198C36;
+}
